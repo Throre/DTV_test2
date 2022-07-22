@@ -1,0 +1,77 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 100%;
+    height: 800px;
+    /* padding-bottom: 150px;
+    box-sizing: border-box; */
+}
+.faq_title{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #000000;
+}
+.faq_dropdown{
+    display: flex;
+    flex-direction: column;
+    width: 918px;
+    height: fit-content;
+    border: 1px solid #025ED4;
+    
+}
+.dropwdown_item{
+    position: relative;
+    height: 130px;
+    width: 918px;;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #025ED4;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.dropwdown_item img{
+    width: 45px;
+    height: 28px;
+}
+
+.dropwdown_item h3{
+    width: 549px;
+    height: fit-content;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 70px;
+    color: #000000;
+}
+.dropdown_info{
+    padding-right: 50px;
+    display: none;
+    width: 800px;   
+}
+.dropdown_info p{
+    width: 800px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.dropwdown_item img:hover > .dropdown_info{
+    position: absolute;
+    display: block;
+    top: 90px;
+    
+}
+.dropwdown_item img:hover{
+    transform: rotate(-180deg);
+}

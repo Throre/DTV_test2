@@ -1,0 +1,79 @@
+.work_procces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1260px;
+}
+.steps_container{
+    width: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.step_item1, .step_item2, .step_item3, .step_item4, .step_item5 {
+    width: 715px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.step_item1{
+    top: 50px;
+    left: -100px;
+}
+.step_item2{
+    text-align: right;
+    top: 250px;
+    left: 220px;
+}
+.step_item3{
+    top: 450px;
+    left: -100px;
+}
+.step_item4{
+    text-align: right;
+    top: 650px;
+    left: 220px;
+}
+.step_item5{
+    top: 850px;
+    left: -100px;
+}
+.step_backgrond{
+    display: flex;
+    justify-content: start;
+    width: 135px;
+    height: 135px;
+    
+}
+.step_info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 535px;
+    height: 90px;
+}
+.step_info h3{
+    width: 535px;
+    height: 40px;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+    color: #000000;
+    
+}
+.step_info p{
+    width: 544px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    
+}

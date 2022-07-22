@@ -1,0 +1,71 @@
+.background{
+    background: linear-gradient(180deg, rgba(197, 238, 255, 0.34) 0%, rgba(197, 238, 255, 0.14) 58.27%, rgba(197, 238, 255, 0) 129.64%);
+}
+.prod_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prod_item{
+    display: flex;
+    flex-direction: column;
+    height: 485px;
+    width: 262px;
+    margin: 0 44px 30px 44px;
+}
+.prod_background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 262px;
+    height: 300px;
+}
+.item_image{
+    width: 262px;
+    height: 300px;
+}
+.prod_background:hover > .link{
+    display: block;
+}
+.link{
+    width: 244px;
+    height: 72px;
+    position: absolute;
+    display: none;
+    top: 215px;
+    left: 5px;
+    background: rgba(94, 90, 90, 0.69);
+
+}
+.link a{
+    width: 100px;
+    height: 70px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 70px;
+    color: #FFFFFF;
+    text-decoration-line: underline;
+    margin: 0 13px;
+    
+}
+
+.prod_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 70px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.prod_item p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}

@@ -1,0 +1,62 @@
+.service{
+    width: 100%;
+    height: 808px;
+}
+.service_title{
+    text-align: center;
+    height: fit-content;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+}
+.service_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 30px;
+}
+.service_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+}
+.service_item h3{
+    text-align: center;
+    width: 240px;
+    height: 78px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 70px;
+    color: #000000;
+    margin: 10px;
+}
+.service_item p{
+    width: 331px;
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 0 50px;
+}
+.service_backgroung{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service_backgroung img{
+    width: 115px;
+    height: 111px;
+}

@@ -1,0 +1,112 @@
+.footer{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 120px 30px 120px;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+.footer_container{
+    height: 100%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.footer_logo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 489px;
+    
+}
+.footer_logo span{
+    width: 489px;
+    height: 80px;
+}
+.policy{
+    margin-top: 50px;
+}
+.policy p{
+    width: 489px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #919191;
+}
+.policy p:last-child{
+    text-decoration-line: underline;
+}
+.footer_logo img{
+    position: absolute;
+    left: -7px;
+    top: 20px;
+    width: 171px;
+    height: 37px;
+}
+.footer_logo h3 {
+    position: relative;
+    top: 50px;
+    width: 171px;
+    height: 27px;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer_info1{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 400px;
+    padding-top: 40px;
+    
+}
+.footer_info1 a{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    
+}
+.footer_info2{
+    width: 258px;
+    height: 200px;
+}
+.footer_info2 p{
+    width: 258px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer_info2 p::first-line{
+    color: #919191;
+}
+.footer_contacts{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.footer_contacts a{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+
+}
